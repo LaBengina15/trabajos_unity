@@ -21557,6 +21557,75 @@ Mesh:
     offset: 0
     size: 0
     path: 
+--- !u!1001 &1049654504
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 66e4808f6bc0350439d1b310d9c187a8, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.20006879
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 66e4808f6bc0350439d1b310d9c187a8, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1.0702001
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 66e4808f6bc0350439d1b310d9c187a8, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.20518781
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 66e4808f6bc0350439d1b310d9c187a8, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 9.064357
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 66e4808f6bc0350439d1b310d9c187a8, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 10.952757
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 66e4808f6bc0350439d1b310d9c187a8, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 6.66
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 66e4808f6bc0350439d1b310d9c187a8, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 66e4808f6bc0350439d1b310d9c187a8, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 66e4808f6bc0350439d1b310d9c187a8, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 66e4808f6bc0350439d1b310d9c187a8, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 66e4808f6bc0350439d1b310d9c187a8, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 66e4808f6bc0350439d1b310d9c187a8, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 66e4808f6bc0350439d1b310d9c187a8, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 66e4808f6bc0350439d1b310d9c187a8, type: 3}
+      propertyPath: m_Name
+      value: Pilar_trabajo (2)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 66e4808f6bc0350439d1b310d9c187a8, type: 3}
 --- !u!43 &1057613646
 Mesh:
   m_ObjectHideFlags: 0
@@ -24639,13 +24708,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1124089400}
   serializedVersion: 2
-  m_LocalRotation: {x: -0.0000034548445, y: -1.9120493e-12, z: 0.00000055344003, w: 1}
-  m_LocalPosition: {x: -0.62, y: 0.7, z: 12.17}
+  m_LocalRotation: {x: 0, y: -0.7071068, z: 0, w: 0.7071068}
+  m_LocalPosition: {x: -6.66, y: 0.6999998, z: 5.76}
   m_LocalScale: {x: 1, y: 1, z: 2.6089303}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 749592316}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: -90, z: 0}
 --- !u!64 &1124089402
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -40169,17 +40238,9 @@ MonoBehaviour:
   m_Mesh: {fileID: 67020712}
   m_VersionIndex: 2448
   m_IsSelectable: 1
-  m_SelectedFaces: 16000000
-  m_SelectedEdges:
-  - a: 89
-    b: 88
-  - a: 88
-    b: 90
-  - a: 90
-    b: 91
-  - a: 91
-    b: 89
-  m_SelectedVertices: 5a00000059000000580000005b000000
+  m_SelectedFaces: 
+  m_SelectedEdges: []
+  m_SelectedVertices: 
 --- !u!4 &1630074936
 Transform:
   m_ObjectHideFlags: 0
@@ -53534,6 +53595,7 @@ SceneRoots:
   - {fileID: 1160424638}
   - {fileID: 700789360}
   - {fileID: 337832278}
+  - {fileID: 1049654504}
   - {fileID: 235800917}
   - {fileID: 1103723418}
   - {fileID: 1225044787}
